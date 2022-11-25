@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'inter';
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+a {
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+}
+
+.header-link {
+    color: hsl(236, 13%, 42%);
+    padding-top: 30px;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.scr-h2:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    margin: 6.25rem 9.375rem 1.875rem 9.375rem;
+}
+
+.first-container {
+    display: flex;
+    place-content: end space-between;
+    height: 5rem;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.first-container-solo-letter {
+    align-self: center;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.first-container-links {
+    position: relative;
+    padding-top: 1%;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.first-container-h1 {
+    font-family: 'Chonburi';
+    color: hsl(240, 100%, 5%);
+    font-size: 3rem;
+    text-align: left;
+}
+
+.second-container {
+    display: flex;
+    place-content: end space-between;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.second-container-left {
+    background-color: hsl(36, 100%, 99%);
+    width: 87%;
+    padding-right: 2%;
+}
+
+.second-container-right {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    width: 30%;
+    padding: 2rem 3rem 2rem 2rem;
+    height: 27.55rem;
+}
+
+.second-container-right-h1 {
+    margin: 0;
+    font-family: 'inter';
+    color: hsl(35, 77%, 62%);
+    text-align: left;
+    font-weight: bolder;
+}
+
+.scr-h2 {
+    font-family: 'inter';
+    color: hsl(36, 100%, 99%);
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.scr-p {
+    margin: 0;
+    font-family: 'inter';
+    font-size: 0.85rem;
+    color: hsl(233, 8%, 79%);
+    text-align: left;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+
+}
+
+hr {
+    width: 60%;
+    height: 1rem;
+    border-style: inset none none;
+    border-color: hsl(233, 8%, 79%);
+}
+
+
+.image-web-3-desktop {
+    width: 100%;
+    height: 60%;
+}
+
+.second-container-left-bottom {
+    display: flex;
+    background-color: hsl(36, 100%, 99%);
+    width: 100%;
+    height: 40%;
+}
+
+.second-container-left-bottom-left {
+    background-color: hsl(36, 100%, 99%);
+    width: 50%;
+    height: 40%;
+}
+
+.second-container-left-bottom-left-h1 {
+    padding-right: 2rem;
+    line-height: 1;
+    color: hsl(240, 100%, 5%);
+    text-align: left;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-block-start: 1rem;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.second-container-left-bottom-right {
+    background-color: hsl(36, 100%, 99%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    height: 40%;
+    padding: 0 3rem 0 3rem;
+}
+
+.scrs {
+    border-bottom: hsl(233, 8%, 79%) 0.4px solid;
+}
+
+.second-container-left-bottom-right-btn {
+    font-family: 'inter';
+    color: hsl(36, 100%, 99%);
+    font-size: 0.75rem;
+    background: hsl(5, 85%, 63%);
+    padding: 1rem 1rem 1rem 2rem;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+    width: 6rem;
+}
+
+.second-container-left-bottom-right-btn:hover {
+    background: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+}
+
+.third-container {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5.5rem;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.third-container-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.num {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: hsl(233, 8%, 79%);
+}
+
+.title {
+    margin: 0;
+    padding: 0.7rem 0 0.7rem 0;
+    text-align: left;
+    color: hsl(240, 100%, 5%);
+    font-size: 1.1rem;
+
+}
+
+.tc-p {
+    margin: 0;
+    padding: 0 2rem 0 0;
+    padding-right: 0;
+    margin-block-end: 0;
+    text-align: left;
+    line-height: 2;
+    color: hsl(233, 8%, 79%);
+}
+
+.tc {
+    padding-left: 1rem;
+    width: 12rem;
+}
+
+.third-container-middle {
+    display: flex;
+    margin-left: 0;
+}
+
+.third-container-left-right {
+    padding-left: 0;
+}
+
+.third-container-right {
+    display: flex;
+    margin-left: 1.6rem;
+}
+
+.img {
+    height: 8rem;
+    width: 5.5rem;
+}

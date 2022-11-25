@@ -1,60 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chonburi&family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <div class="first-container">
+      <div class="first-container-logo">
+        <img class="logo" src="./assets/images/logo.svg" alt="logo" />
+      </div>
+      <div class="first-container-links">
+        <a class="header-link hov" href="">Home</a>
+        <a class="header-link hov" href="">New</a>
+        <a class="header-link hov" href="">Popular</a>
+        <a class="header-link hov" href="">Trending</a>
+        <a class="header-link hov" href="">Categories</a>
+      </div>
+    </div>
+    <div class="second-container">
+      <div class="second-container-left">
+        <img
+          class="image-web-3-desktop"
+          src="./assets/images/image-web-3-desktop.jpg"
+          alt="web-3-desktop"
+        />
+        <div class="second-container-left-bottom">
+          <div class="second-container-left-bottom-left">
+            <h1 class="second-container-left-bottom-left-h1">
+              The Bright Future of Web 3.0?
+            </h1>
+          </div>
+          <div class="second-container-left-bottom-right">
+            <p class="second-container-left-bottom-right-p">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <a class="second-container-left-bottom-right-btn" href="#"
+              >READ MORE</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="second-container-right">
+        <div class="second-container-right-sub scrs">
+          <h1 class="second-container-right-h1 scr-h1">New</h1>
+          <h2 class="second-container-right-h2 scr-h2">
+            <a href="#"> Hydrogen VS Electric Cars</a>
+          </h2>
+          <p class="second-container-right-p scr-p">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+        <div class="second-container-right-sub scrs">
+          <h2 class="second-container-right-h2 scr-h2">
+            <a href="#"> The Downsides of AI Artistry </a>
+          </h2>
+          <p class="second-container-right-p scr-p">
+            What are the possible adverse effects of <br />on-demand AI image
+            generation?
+          </p>
+        </div>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ayomide Adekoya</a>.
-  </div>
-</body>
+        <div class="second-container-right-sub scrs-end">
+          <h2 class="second-container-right-h2 scr-h2">
+            <a href="#"> Is VC Funding Drying Up?</a>
+          </h2>
+          <p class="second-container-right-p scr-p">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="third-container">
+      <div class="third-container-left">
+        <div>
+          <img
+            class="image-retro-pcs img"
+            src="./assets/images/image-retro-pcs.jpg"
+            alt="retro-pcs"
+          />
+        </div>
+        <div class="third-container-left-right tc">
+          <h2 class="third-container-left-h2 num">01</h2>
+          <h2 class="third-container-left-h2 title">
+            <a class="title" href="#">Reviving Retro PCs</a>
+          </h2>
+          <p class="third-container-left-p tc-p">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+      <div class="third-container-middle">
+        <div>
+          <img
+            class="image-top-laptops img"
+            src="./assets/images/image-top-laptops.jpg"
+            alt="top-laptops"
+          />
+        </div>
+        <div class="third-container-middle-right tc">
+          <h2 class="third-container-middle-h2 num">02</h2>
+          <h2 class="third-container-middle-h2 title">
+            <a class="title" href="#">Top 10 Laptops of 2022</a>
+          </h2>
+          <p class="third-container-middle-p tc-p">
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </div>
+      <div class="third-container-right">
+        <div>
+          <img
+            class="image-gaming-growth img"
+            src="./assets/images/image-gaming-growth.jpg"
+            alt="gaming-growth"
+          />
+        </div>
+        <div class="third-container-right-right tc">
+          <h2 class="third-container-right-h2 num">03</h2>
+          <h2 class="third-container-right-h2 title">
+            <a class="title" href="#">The Growth of Gaming</a>
+          </h2>
+          <p class="third-container-right-p tc-p">
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a class="attribution" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ayomide Adekoya</a>.
+    </div>
+  </body>
 </html>
